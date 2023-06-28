@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.awal{
+    background-image: url("/img/bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+}
+
+.header{
+    width: 100vw;
+    height: 100px;
+    background-attachment: fixed;
+}
+
+header.container-fluid{
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+header h3{
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+}
+
+ .navb-item {
+    width: 100%;
+    padding: 10px;
+    padding-left: 55%;
+    padding-top: 30px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0%;
+} 
+
+.container{
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.item a {
+    font-weight: 10;
+    letter-spacing: 5px;
+}
+
+.item a:hover{
+    color: blue;
+}
+
+a.nav-link{
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.item:hover{
+    cursor: pointer;
+    border-top: 1px solid aqua;
+    border-bottom: 1px solid aqua;
+}
+
+.fa-solid{
+    font-size: 20px;
+}
+
+.mobile-toggler .fa-bars{
+    position: fixed;
+    top: 30px;
+    left: 90%;
+    z-index: 100;
+}
+
+.mobile-toggler a i:hover {
+    cursor: pointer;
+}
+
+.modal-line {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.modal-line a{
+    color: black;
+}
+
+.modal-title{
+    color: black;
+}
+
+.fa-house {
+    margin-right: 20px;
+}
+
+.fa-wrench {
+    margin-right: 20px;
+}
+
+.fa-circle-question{
+    margin-right: 24px;
+}
+
+.fa-address-book {
+    margin-right: 20px;
+}
+
+.fa-file{
+    margin-right: 24px;
+}
+
+.modal-dialog{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.modal-content{
+    width: 50vw;
+    height: 100vh;
+    border-radius: 0;
+    overflow-y: scroll;
+}
+
+.bag1{
+    animation: keatas 2s ease-out forwards;
+    position: relative;
+    opacity: 0;
+    width: 100vw;
+}
+
+.foto img{
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px;
+    border: 5px solid rgba(0, 0, 0, 0.356);
+}
+
+.bag1 h2{
+    margin-top: 30px;
+}
+
+.ket{
+    width: 50vw;
+}
+
+p.ket25 a{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.tentang{
+    height: 100vh;
+    color: white;
+    padding: 5vw;
+}
+
+.tentang-bg{
+    background-color: rgb(37, 36, 56);
+}
+
+.ket3{
+    width: 40vw;
+    border-bottom: 2px solid rgb(255, 94, 0);
+    margin-bottom: 5vw;
+    opacity: 0;
+    margin-left: -30px;
+} 
+
+.ket3 h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 50px;
+}
+
+.aku img{
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+
+.ket4{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+}
+
+.ket5{
+    margin-top: 100px;
+    opacity: 0;
+}
+
+.ket5 p{
+    /* background-color: rgb(0, 81, 255); */
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10%;
+    text-shadow: 3px 3px 3px black;
+}
+
+.ket5 button{
+    background-color: rgb(0, 81, 255);
+    border: 0;
+    padding: 10px;
+    border-radius: 5%;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: relative;
+    left: 30px;
+}
+
+.ket7 p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.tentang-bg2{
+    background-image: url('/img/bg3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.ket3-mod{
+    border-bottom: 2px solid snow;
+}
+
+.skill{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    margin-left: 10vw;
+}
+
+.skill img{
+    width: 10vw;
+    height: 10vw;
+    margin-left: 2.5vw;
+    margin-top: 2.5vw;
+}
+
+.skill .capt{
+    text-align: center;
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill:hover{
+    cursor: pointer;
+    margin-top: -5vh;
+}
+
+.skill:hover .capt{
+    margin-top: 80px;
+    display: block;
+    color: white;
+} 
+
+.bag3{
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+.bag2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.tentang-bg3 {
+    background-color: rgb(29, 29, 136);
+    height: 160vh;
+}
+
+.bag4 {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+}
+
+.box1{
+    width: 40vw;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.box2{
+    background-color: rgba(170, 169, 169, 0.877);
+    padding: 5px 10px;
+    width: 200px;
+    margin: 15px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.tentang-bg4{
+    background-color: rgb(0, 0, 53);
+    height: 60vh;
+}
+
+.tentang-bg4 .ket3{
+    margin-bottom: 15px;
+}
+
+.box3{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.contain{
+    opacity: 0;
+}
+
+
+.box3 a{
+    font-family: 'Lilita One', cursive;
+    margin-left: 30px;
+}
+
+@keyframes keatas {
+    0% {
+        top: 30vh;
+        opacity: 0;
+    }
+    100% {
+        top: 15vh;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1048px) {
+    .container-fluid{
+        overflow-x: hidden;
+    }
+
+    .navb-item{
+        display: none;
+    }
+
+    div.judul h3{
+        width: 200px;
+    }
+    .mobile-toggler{
+        position: relative;
+        left: 60%;
+    }
+
+    p.ket25{
+        position: relative;
+        left: 2%;
+    }
+
+    .ket5{
+        margin-top: 20px;
+    }
+
+    .mobile-toggler i{
+        font-size: 6vw;
+    }
+
+    .tombol{
+        position: relative;
+        top: -200px;
+        left: 400px;
+    }
+
+    .tentang{
+        padding: 5vw;
+     }
+
+     .ket3 h1{
+        font-size: 40px;
+    }
+
+    .bag2{
+        width: 80vw;
+    }
+    .bag2 .skill{
+        width: 25vw;
+        height: 25vw;
+    }
+    .skill img {
+        width: 20vw;
+        height: 20vw;
+        margin-left: 2.5vw;
+        margin-top: 2.5vw;
+    }
+    .bag3{
+        display: block;
+    }
+
+    .skill:hover .capt{
+        margin-top: 50px;
+        display: block;
+    } 
+    
+    .bag4{
+        display: block;
+    }
+    .box1{
+        width: 80vw;
+        text-align: justify;
+    }
+    .tentang-bg3{
+        height: 270vh;
+    }
+    .tentang-bg4{
+        background-color: rgb(0, 0, 53);
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1050px) {
+    .bag1{
+        opacity: 0;
+        display: flex;
+        padding-left: 200px;
+    }
+    .foto img{
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        border: 0;
+        z-index: 500px;
+        position: relative;
+        top: -300px;
+    }
+
+    .kotak{
+        width: 300px;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.411);
+        position: relative;
+        left: 10px;
+        top: 10px;
+        border-radius: 20px;
+    }
+     .foto{
+        float: left;
+     }
+     .ket{
+        width: 30vw;
+        margin-left: 35vw;
+        text-align: left;
+     }
+     
+     .ket5 {
+        position: relative;
+        top: -200px;
+        left: 250px;
+     }
+}
+
+@media (min-height: 900px) {
+    @keyframes keatas {
+        0% {
+            top: 40vh;
+            opacity: 0;
+        }
+        100% {
+            top: 25vh;
+            opacity: 1;
+        }
+    }
+
+    .tentang{
+        padding-top: 10%;
+    }
+
+    .tentang-bg{
+        padding-top: 20%;
+    }
+
+    .tentang-bg3{
+        height: 140vh;
+    }
+
+    .tentang-bg4{
+        height: 30vh;
+    }
+
+    .tentang-bg4{
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 500px) {
+    div.judul h3{
+        margin-left: -10px;
+        width: 200px;
+        font-size: 25px;
+    }
+    .mobile-toggler{
+        position: relative;
+        left: 30vw;
+    }
+    .modal-line{
+        font-size: 13px;
+    }
+
+    .mobile-toggler .fa-bars{
+        top: 35px;
+        left: 85%;
+    }
+    
+    .fa-house {
+        margin-right: 15px;
+    }
+    
+    .fa-wrench {
+        margin-right: 18px;
+    }
+    
+    .fa-circle-question{
+        margin-right: 26px;
+    }
+    
+    .fa-address-book {
+        margin-right: 18px;
+    }
+
+    .bag1{
+        margin-top: 10vh;
+    }
+
+    .bag1 h3{
+        font-size: 20px;
+    }
+
+    .bag1 h5{
+        font-size: 18px;
+    }
+    
+    .ket3 h1{
+        font-size: 30px;
+    }
+
+    .ket4 {
+        display: block;
+    }
+    .ket4 p{
+        margin-top: 20px;
+        font-size: 14px;
+        margin-bottom: -50px;
+    }
+    .ket5 ul li{
+        font-size: 14px;
+    }
+    .ket5{
+        margin-top: 80px;
+        position: relative;
+        left: -20px;
+    }
+
+    .tentang{
+        padding: 8vw;
+     }
+
+     .tentang-bg{
+        height: 110vh;
+     }
+
+    .tombol{
+        position: relative;
+        top: 0px;
+        left: 0vw;
+    }
+
+    .ket7 p{
+        font-size: 30px;
+    }
+
+    .tentang-bg2{
+        height: 200vh;
+    }
+
+    .bag2{
+        display: block;
+    }
+    .bag2 .skill{
+        width: 50vw;
+        height: 50vw;
+        margin-bottom: 15vh;
+        margin-left: 15vw;
+    }
+    .skill img {
+        width: 45vw;
+        height: 45vw;
+    }
+
+    .skill:hover{
+        margin-top: 0;
+    }
+    .skill:hover .capt{
+        margin-top: 20px;
+    } 
+
+    .box3 a{
+        font-size: 20px;
+    }
+
+    .tentang-bg3{
+        height: 200vh;
+    }
+
+    .tentang-bg4{
+        height: 40vh;
+    }
+    
+}
+
+@media (max-width: 390px) {
+    div.judul h3{
+        margin-left: -20px;
+        width: 200px;
+    }
+
+    .ket {
+        text-align: center;
+    }
+
+    .bag1 h3{
+        width: 80vw;
+        font-size: 20px;
+        margin-left: -15vw;
+        padding: 0;
+    }
+
+    .aku img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .ket5{
+        font-size: 12px;
+        margin-top: 30px;
+        position: relative;
+        left: -20px;
+    }
+
+    .ket5 p{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .tombol{
+        top: 2vh;
+    }
+
+    .tentang-bg3{
+        height: 220vh;
+    }
+    
+}
+
+@media (max-width: 361px) {
+    .mobile-toggler{
+        position: relative;
+        left: 25vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    @keyframes keatas {
+        0% {
+            top: 20%;
+            opacity: 0;
+        }
+        100% {
+            top: 0;
+            opacity: 1;
+        }
+    }
+    
+    .tentang-bg3{
+        height: 250vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}
